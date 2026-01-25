@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: It was slower in the reversed files, which is the worst case for the bubble sort since it has to switch position multiple times in one go.
+
+sort2 uses: Merge sort
+
+How do you know?: It was generally the fastest the tests conducted, and since it is in the O(nlog(n)) (better than the others), it is the expected result.
+
+sort3 uses: Selection sort
+
+How do you know?: it was way faster in the reversed files when compared to sort1, which means it was not working (switching positions) as much as sort1.
